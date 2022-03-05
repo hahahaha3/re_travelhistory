@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  margin-bottom: 1em;
+}
+
+.input,
+.textarea,
+.select,
+.button,
+.fileInput {
+  font-size: 0.8rem;
+  font-family: 'Merriweather';
+  width: 100%;
+  border: 0;
+  padding: 0.5em;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+  color: #555;
+}
+
+.input,
+.select {
+  flex: 1 1 30%;
+}
+
+.fileInput {
+  padding: 0;
+  flex: 1 1 50%;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus,
+.button:focus {
+  outline: 0;
+}
+
+.textarea {
+  height: 10em;
+  flex-basis: 100%;
+}

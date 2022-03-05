@@ -1,0 +1,13 @@
+.editor {
+    flex-basis: 30%;
+    border-right: 1px solid LightGrey;
+    padding: 0.5em 2em;
+    overflow-y: auto;
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+    color:#414143;
+  }

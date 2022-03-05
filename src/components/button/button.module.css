@@ -1,0 +1,14 @@
+.button {
+    background-color: #E1DCD9;
+    color: #000;
+    cursor: pointer;
+    padding: 0.5em;
+    flex: 1 1 50%;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    font: bold 0.8rem 'Merriweather';
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }

@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 20em;
+  margin-bottom: 1.5em;
+  box-shadow: 6px 6px 8px 0px rgba(217, 217, 217, 1);
+  padding: 10px;
+}
+
+.card.dark {
+  background-color: #414143;
+  color: White;
+}
+
+.card.light {
+  background-color: #E1DCD9;
+  color: Black;
+}
+.card.colorful {
+  background: linear-gradient(166deg, #E1DCD9 0%,#A67F78 100%);
+}
+
+.pic {
+  width: 10em;
+  height: 10em;
+  padding: 0;
+  margin: 0 1.5em 0 .5em;
+}
+
+.info {
+  width: 100%;
+}
+
+.where,
+.who,
+.title,
+.date,
+.message {
+  margin: 0;
+  font-size: 0.8rem;
+  margin-bottom: 0.2em;
+}
+
+.where {
+  font-size: 1.2rem;
+}
+
+.date {
+  float: right;
+}
+
+.who {
+  margin-bottom: 1em;
+}
+
+.message {
+  height: 100%;
+}
