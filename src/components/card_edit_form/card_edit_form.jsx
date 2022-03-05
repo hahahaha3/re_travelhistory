@@ -85,7 +85,7 @@ const CardEditForm = ({FileInput, card, updateCard, deleteCard}) => {
                 className={styles.textarea}
                 name="message"
                 value={message}
-                maxLength="1000"
+                maxLength="500"
                 onChange={onChange} />
             
             <div className={styles.fileInput}>

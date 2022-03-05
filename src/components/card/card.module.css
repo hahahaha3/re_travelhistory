@@ -1,11 +1,14 @@
 .card {
   display: flex;
   align-items: center;
-  width: 100%;
-  min-height: 20em;
-  margin-bottom: 1.5em;
-  box-shadow: 6px 6px 8px 0px rgba(217, 217, 217, 1);
-  padding: 10px;
+  width: calc(91% / 3);
+  height: 45em;
+  margin: 0 auto 3em;
+  box-shadow: 0px 10px 8px 0px rgba(217, 217, 217, 1);
+  padding: 2em;
+}
+.card:nth-of-type(3n) {
+  margin-right: 0;
 }
 
 .card.dark {
@@ -22,10 +25,9 @@
 }
 
 .pic {
-  width: 10em;
-  height: 10em;
-  padding: 0;
-  margin: 0 1.5em 0 .5em;
+  width: 100%;
+  height: 90%;
+  margin-top: 1em;
 }
 
 .info {
@@ -40,20 +42,28 @@
   margin: 0;
   font-size: 0.8rem;
   margin-bottom: 0.2em;
+  font-family: 'Noto Serif KR';
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 0.4em;
 }
 
 .where {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .date {
   float: right;
 }
 
-.who {
-  margin-bottom: 1em;
+.message {
+  margin-top: 0.8em;
+  height: 150px;
+  overflow: auto;
 }
 
-.message {
-  height: 100%;
+.pic {
+  height: 230px;
 }

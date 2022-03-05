@@ -80,7 +80,7 @@ const CardAddForm = ({ FileInput, onAdd }) => {
                 ref={messageRef}
                 className={styles.textarea}
                 name="message"
-                maxLength="1000"
+                maxLength="500"
                 placeholder="Message"></textarea>
             
             <div className={styles.fileInput}>

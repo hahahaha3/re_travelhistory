@@ -9,13 +9,13 @@ const Card = ({card}) => {
 
     return(
         <li className={`${styles.card} ${getStyles(theme)}`}>
-            <img className={styles.pic} src={url} alt="profile photo" />
             <div className={styles.info}>
-                <h1 className={styles.where}>{where}</h1>
+                <h1 className={styles.title}>{title}</h1>
                 <p className={styles.date}>{date}</p>
+                <p className={styles.where}>{where}</p>
                 <p className={styles.who}>{who}</p>
-                <p className={styles.title}>{title}</p>
                 <p className={styles.message}>{message}</p>
+                <img className={styles.pic} src={url} alt="profile photo" />
             </div>
         </li>
     );
