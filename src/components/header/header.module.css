@@ -13,8 +13,9 @@
   
   .logout {
     position: absolute;
-    right: 3em;
-    top: 50%;
+    right: 2em;
+    top: 40%;
+    width: 7em;
     transform: translateY(-50%);
     padding: 0.8em;
     color: #414143;
@@ -30,3 +31,10 @@
     color: #E1DCD9;
   }
   
+  @media screen and (max-width: 400px) {
+    .logout {
+      border: none;
+      top: 1.5em;
+      left: 0;
+    }
+  }
