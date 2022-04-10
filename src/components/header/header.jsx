@@ -4,7 +4,7 @@ import styles from './header.module.css';
 const Header = ({onLogout}) => (
     <header className={styles.header}>
         {onLogout && <button className={styles.logout} onClick={onLogout}>Logout</button>}
-        <h1 className={styles.title}>Travel History Maker</h1>
+        <h1 className={styles.title}>Travel History</h1>
     </header>
     );
 

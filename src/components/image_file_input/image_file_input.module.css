@@ -21,13 +21,13 @@
   font: bold 0.8rem 'Merriweather';
 }
 
-.button.navy {
-  background-color: #A67F78;
+.button.grey {
+  background-color: #414143;
   color: #fff;
 }
 
-.button.beige {
-  background-color: #414143;
+.button.pink {
+  background-color: #A67F78;
   color: #fff;
 }
 

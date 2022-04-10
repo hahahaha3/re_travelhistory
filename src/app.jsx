@@ -18,5 +18,4 @@ function App({authService, FileInput, cardRepository}) {
     </div>
   );
 }
-
 export default App;
